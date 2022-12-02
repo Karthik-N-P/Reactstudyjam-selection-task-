@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.task{
+    text-align: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    display:block;
+    transform: translate(-50%,-50%);
+   
+}
+.task label{
+    
+    font-size: 24px;
+    font-weight: 600;
+    
+
+}
+.task .btns{
+    width:90px;
+    height:40px;
+    justify-content: space-between;
+    display:flex;
+    margin-top: 20px;
+}
+.task .operation{
+    justify-items: center;
+    width:40px;
+    height:40px;
+    border-radius:30px;
+    border: none;
+    color: gray;
+    box-shadow: 0 0 5px 0 gray;
+    font-size: 20px;
+
+
+}
+.task .operation:hover{
+    background-color:rgb(238, 123, 142);
+    color: white;
+    cursor: pointer;
+}
